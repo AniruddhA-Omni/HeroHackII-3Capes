@@ -1,0 +1,40 @@
+.contri_con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 70px);
+    background-color: rgba(61, 61, 61, 0.822);
+}
+.contri_con1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 55vw;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+
+}
+
+.contri_con2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    width: 45vw;
+
+}
+.contri_con2> .lc>img{
+    width: 100px;
+    border-radius: 50%;
+}
+.rc{
+    width: 35vw
+}
+.ca{
+    cursor: pointer;
+    
+}

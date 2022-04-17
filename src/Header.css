@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(23, 23, 23);
+    height: 70px;
+    color: white;
+    padding: 0 20px;
+    position: sticky;
+}
+.logo{
+    width: 50px;
+}
+
+.header_components{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30vw;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a > img{
+    border-radius: 50%;
+    cursor: pointer;
+}
+a:hover{
+    font-size: large;
+}
+
+.header_logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 12vw;
+    font-size: 25px;
+}
